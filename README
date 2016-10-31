@@ -3,7 +3,7 @@ Experimental ArchLinuARM (alarm) rootfs for Sharp Zaurus C3x00 Series
 
 - Based on http://archlinuxarm.org/os/ArchLinuxARM-armv5-latest.tar.gz this image contains a
 
-- 4.2.3 kernel, with some patches for CF LED, USB 180mA and alarm boot logo
+- 4.4.0 and 4.9-rc3 kernel, with some patches and alarm boot logo
 
 - Extract as root this rootfs to a SD card formated with ext4 using your favorite Linux distribution.
 
