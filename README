@@ -19,4 +19,4 @@ Experimental ArchLinuARM (alarm) rootfs for Sharp Zaurus C3x00 Series
 
 - Extract the roofs to the internal CF drive and change /boot/boot.cfg and /etc/fstab to match your layout.
 
-- Forum at oesf.org : http://www.oesf.org/forum/index.php?showtopic=34385
+- Forum at oesf.org : http://www.oesf.org/forum/index.php?showforum=167
