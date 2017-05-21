@@ -3,17 +3,19 @@ Experimental ArchLinuARM (alarm) rootfs for Sharp Zaurus C3x00 Series
 
 - Based on http://archlinuxarm.org/os/ArchLinuxARM-armv5-latest.tar.gz this image contains a
 
-- 4.4.0 and 4.9-rc3 kernel, with some patches and alarm boot logo
+- 4.12.0-rc0 kernel, with some patches and alarm boot logo
 
 - Extract as root this rootfs to a SD card formated with ext4 using your favorite Linux distribution.
 
-- Install arch-kexecboot from this github. Instructions included arch-kexeboot tar.
+- Install arch-kexecboot from this github. Instructions included arch-kexeboot tar. https://github.com/greguu/linux-3.10.y-c3x00-f2fs-kexec-r0/releases
 
 - Enter rootfs SD card into Z and boot via kexecboot.
 
 - Login to the minimal alarm rootfs (user : root , password : root)
 
 - Follow the Arch Guide and Wiki to complete your setup.
+
+- You will find some packages in /var/cache/packman/pkg that may help you if you do not have networking set up yet. Install them with "pacman -u packagename.tar.xz"
 
 - Extract the roofs to the internal CF drive and change /boot/boot.cfg and /etc/fstab to match your layout.
 
