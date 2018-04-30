@@ -1,11 +1,11 @@
 Experimental ArchLinuARM (alarm) rootfs for Sharp Zaurus C3x00 Series
 ---------------------------------------------------------------------
 
-- Based on http://archlinuxarm.org/os/ArchLinuxARM-armv5-latest.tar.gz this image contains a
+- Based on http://archlinuxarm.org/os/ArchLinuxARM-armv5-latest.tar.gz 
 
-- 4.14.18 kernel, with some patches and alarm boot logo
+- This rootfs contains Linux Kernel 4.14.18, including some patches and ALARM boot logo
 
-- Extract as root this rootfs to a SD card formated with ext4 using your favorite Linux distribution.
+- Extract as root the rootfs.tar.xz to a SD card (formated with ext4) using your favorite Linux distribution.
 
 - Install arch-kexecboot from this github. Instructions included arch-kexeboot tar. https://github.com/greguu/linux-3.10.y-c3x00-f2fs-kexec-r0/releases
 
